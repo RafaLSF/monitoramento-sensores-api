@@ -1,4 +1,5 @@
 package com.fiap.mecatronica.monitoramento.repository;
-
-public class SensorRepository {
+import com.fiap.mecatronica.monitoramento.model.Sensor;
+import org.springframework.data.jpa.repository.JpaRepository;
+public interface SensorRepository extends JpaRepository<Sensor, Long> {
 }
